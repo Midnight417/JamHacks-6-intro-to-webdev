@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #202020;
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 75px;
+    background-color: #101010;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 2rem;
+}
+
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60vw;
+}
+
+.home-img {
+    height: 300px;
+    margin-bottom: 1rem;
+}
+
+.title, .subtitle {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.interest-form {
+    background-color: #303030;
+    border-radius: 16px;
+    padding: 3rem;
+    width: 300px;
+    height: 100%;
+}
+
+.interest-form h2 {
+    text-align: center;
+}
+
+form {
+    margin-top: 3rem;
+}
+
+.form-input {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input input {
+    margin-top: 0.5rem;
+    background-color: #202020;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+#signup-btn {
+    margin-top: 3rem;
+    background-color: #202020;
+    border: none;
+    padding: 1rem 2rem;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s background-color;
+}
+
+#signup-btn:hover {
+    background-color: #101010;
+}
